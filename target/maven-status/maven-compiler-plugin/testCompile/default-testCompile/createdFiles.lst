@@ -2,6 +2,8 @@ runner/AbstractTestNGCucumberParallelTests.class
 ConstantVariables/Constant.class
 runner/Default.class
 ApplicationPages/SigninPage.class
+helper/apiSteps.class
 stepdefs/BaseClass.class
+stepdefs/ApiStepdef.class
 helper/helper.class
 stepdefs/SignInStepdef.class

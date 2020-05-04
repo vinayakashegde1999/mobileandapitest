@@ -1,7 +1,8 @@
-Feature: Select date in Android Apps
+Feature: Signin to  Vivy App
 
   @vivyApp
-  Scenario: Select date
+  Scenario: Test Signin in Functionality
+
     Given User Enters Wrong Credentials
     Then  User selects remainder permission
     When  User Enters correct Credentials

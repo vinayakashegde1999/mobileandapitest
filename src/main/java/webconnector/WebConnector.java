@@ -38,6 +38,12 @@ public class WebConnector<v> {
     }
 
 
+    public Properties getProperty() {
+        return prop;             //Path for Properties files to load the driver properties
+    }
+
+
+
     public void setUpDriver() throws MalformedURLException {
 
         String os = System.getProperty("deviceType");
@@ -49,6 +55,11 @@ public class WebConnector<v> {
             case "ios":
                 iosSetUp();
                 break;
+            case "api":
+                  System.out.print("ApiTests");
+                  break;
+
+
             default:
                 throw new IllegalArgumentException(" invalid  operating system selected ..");
 
