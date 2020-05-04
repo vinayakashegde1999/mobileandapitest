@@ -2,7 +2,7 @@ package ConstantVariables;
 
 public class Constant {
     public static final String glue = "stepdefefs";
-    public static final String tags = "@androiddatePicker"; //@androiddatePicker ; @IosdatePicker
+    public static final String tags = "@vivyApp"; //@androiddatePicker ; @IosdatePicker
     public static final int waitFor=10;
     public static final String signinButton="login_fragment_sign_in_button";
     public static  final String email="email";
@@ -11,4 +11,6 @@ public class Constant {
     public static  final String inputPIN="inputPIN";
     public static  final String button_confirm ="button_confirm";
     public static  final String smsScreen="//*[contains(@text,'ist')]";
+    public static  final String postSigninKey="activity_import_encrypted_private_key_welcome_scan_button";
+
 }

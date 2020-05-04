@@ -42,7 +42,7 @@ public class SignInStepdef {
     }
 
     @Then("^User Successfully Signed in on the APP$")
-    public void verifyuserSignedIn(){
+    public void verifyuserSignedIn() throws InterruptedException {
         signIn.verifyUserSignedIn();
 
     }
